@@ -52,10 +52,10 @@ Validated across 340 paired Monte Carlo simulations: supersonic (*d* = 0.813, *p
                     ┌────────────────────┼────────────────────┐
                     │                    │                    │
               ┌─────▼─────┐       ┌─────▼─────┐       ┌─────▼─────┐
-              │ Analytical │       │  Regime   │      │  4 Expert │
-              │  Backbone  │       │   Gate    │      │ Networks  │
-              │  (MO-TKE)  │       │ (softmax) │      │ + FiLM(ρ) │
-              │  0 params  │       │  84 par.  │      │  468 par. │
+              │ Analytical │      │  Regime   │       │  4 Expert │
+              │  Backbone  │      │   Gate    │       │ Networks  │
+              │  (MO-TKE)  │      │ (softmax) │       │ + FiLM(ρ) │
+              │  0 params  │      │  84 par.  │       │  468 par. │
               └─────┬─────┘       └─────┬─────┘       └─────┬─────┘
                     │                    │                  │
                     │              ┌─────▼─────┐            │
